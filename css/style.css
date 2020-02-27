@@ -59,28 +59,38 @@ a {
   background-color: #fe785c;
 }
 
-/* Typography */
-
-
-/* Nav 1 */
-#nav-1 {
-  background-color: #f4f8fd;
-  border-bottom: 1.5px solid #4c707a;
-  padding: 35px 0;
-}
-
-div.nav-left ul li:nth-child(2) {
-  margin: 0 5px;
-}
-
+/* Navs*/
 div.nav-right {
   text-align: right;
 }
 
-div.nav-right ul li:nth-child(2) {
+#nav-1 {
+  background-color: #f4f8fd;
+  border-bottom: 1.5px solid #4c707a;
+  line-height: 80px;
+}
+
+#nav-1 div.nav-left ul li:nth-child(2) {
+  margin: 0 5px;
+}
+
+#nav-1 div.nav-right ul li:nth-child(2) {
   margin: 0 24px;
 }
 
-div.nav-right ul li i.fa-search {
+#nav-1 div.nav-right ul li i.fa-search {
   color: #50afc0;
+}
+
+#nav-2 {
+  line-height: 80px;
+}
+
+#nav-2 ul li {
+  margin-left: 24px;
+  text-transform: capitalize;
+}
+
+#nav-2 ul li i {
+  margin-left: 15px;
 }
