@@ -16,6 +16,10 @@ h1 {
   line-height: 70px;
 }
 
+h2 {
+  font-size: 34px;
+}
+
 p {
   line-height: 30px;
 }
@@ -105,11 +109,15 @@ div.nav-right {
   margin-left: 15px;
 }
 
+#nav-2 div.nav-left img {
+  vertical-align: middle;
+}
+
 /* Jumbotron */
 
 #jumbotron {
   background-color: #fef5ef;
-  height: 610px;
+  height: 608px;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-size: 70%;
@@ -137,9 +145,33 @@ div.nav-right {
   font-size: 13px;
 }
 
+/* Color bar */
+
 #color-bar {
   background-color: #afebe4;
   height: 80px;
   border-top: 3px solid #4c707a;
   border-bottom: 3px solid #4c707a;
+}
+
+/* Main */
+/* Powerful */
+
+#powerful {
+  text-align: center;
+}
+
+#powerful img {
+  display: block;
+  width: 15%;
+  margin: 50px auto 0px auto;
+}
+
+#powerful h2 {
+  margin-bottom: 25px;
+}
+
+#powerful p {
+  width: 40%;
+  margin: 0 auto 50px auto;
 }
