@@ -10,6 +10,16 @@ body {
   color: #32475b;
 }
 
+/* Typography */
+h1 {
+  font-size: 55px;
+  line-height: 70px;
+}
+
+p {
+  line-height: 30px;
+}
+
 /* Utilities */
 .container {
   width: 70%;
@@ -93,4 +103,43 @@ div.nav-right {
 
 #nav-2 ul li i {
   margin-left: 15px;
+}
+
+/* Jumbotron */
+
+#jumbotron {
+  background-color: #fef5ef;
+  height: 610px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: top right;
+}
+
+#jumbotron h1 {
+  margin-bottom: 30px;
+  padding-top: 50px;
+  width: 80%;
+}
+
+#jumbotron p {
+  width: 80%;
+  margin-bottom: 60px;
+}
+
+#jumbotron a {
+  padding: 24px 40px;
+}
+
+#jumbotron span {
+  display: block;
+  margin-top: 60px;
+  font-size: 13px;
+}
+
+#color-bar {
+  background-color: #afebe4;
+  height: 80px;
+  border-top: 3px solid #4c707a;
+  border-bottom: 3px solid #4c707a;
 }
