@@ -1,0 +1,86 @@
+/* Globals */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #32475b;
+}
+
+/* Utilities */
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.float-l {
+  float: left;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.iblock li{
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-white {
+  border: 1.2px solid #fe785c;
+  border-radius: 5px;
+  padding: 10px 10px;
+  color: #fe785c;
+  background-color: white;
+}
+
+.btn-color {
+  border-radius: 5px;
+  padding: 10px 10px;
+  color: white;
+  background-color: #fe785c;
+}
+
+/* Typography */
+
+
+/* Nav 1 */
+#nav-1 {
+  background-color: #f4f8fd;
+  border-bottom: 1.5px solid #4c707a;
+  padding: 35px 0;
+}
+
+div.nav-left ul li:nth-child(2) {
+  margin: 0 5px;
+}
+
+div.nav-right {
+  text-align: right;
+}
+
+div.nav-right ul li:nth-child(2) {
+  margin: 0 24px;
+}
+
+div.nav-right ul li i.fa-search {
+  color: #50afc0;
+}
