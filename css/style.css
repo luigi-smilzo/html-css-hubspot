@@ -330,4 +330,55 @@ div.nav-right {
 #community {
   background-image: linear-gradient(90deg, #00abb7, #00bba8);
   text-align: center;
+  color: white;
+}
+
+#community h2 {
+  padding: 50px 0;
+}
+
+#community p {
+  margin-bottom: 50px;
+}
+
+#community img {
+  margin: 30px auto 10px auto;
+}
+
+#community span:nth-child(2) {
+  position: relative;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+#community span:nth-child(3) {
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+#community span.plus::after {
+  position: absolute;
+  top: 10px;
+  content: '\00a0\002b';
+  font-weight: 400;
+  font-size: 25px;
+}
+
+#community div.row-1 {
+  border-bottom: 1px solid white;
+}
+
+#community div.row-1 > div,
+#community div.row-2 > div {
+  border-right: 1px solid white;
+}
+
+#community div.row-1 > div:last-child,
+#community div.row-2 > div:last-child {
+  border-style: none;
+}
+
+#community div.container > div:last-child {
+  padding-bottom: 120px;
 }
