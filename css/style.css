@@ -81,6 +81,9 @@ a {
   background-color: #fe785c;
 }
 
+.chk-color {
+  color: #fe785c;
+}
 /* Navs*/
 div.nav-right {
   text-align: right;
@@ -190,7 +193,7 @@ div.nav-right {
 #crm > div {
   background-color: white;
   box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.2);
-  padding: 80px 160px;
+  padding: 80px 50px;
 }
 
 #crm .learn-more {
@@ -199,11 +202,11 @@ div.nav-right {
 }
 
 #crm .crm-info {
-  width: 65%;
+  width: 45%;
 }
 
 #crm img {
-  width: 50%;
+  width: 30%;
   display: block;
   margin: 0 auto 90px auto;
 }
@@ -229,6 +232,7 @@ div.nav-right {
   position: relative;
   font-size: 18px;
   font-weight: 900;
+  margin-bottom: 30px;
 }
 
 #crm span::before {
@@ -239,4 +243,12 @@ div.nav-right {
   height: 2px;
   width: 290%;
   background-color: #4c707a;
+}
+
+#crm .features i {
+  margin: 0 16px;
+}
+
+#crm .features i:first-child {
+  margin-left: 0;
 }
