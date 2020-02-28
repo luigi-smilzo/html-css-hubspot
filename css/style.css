@@ -26,10 +26,17 @@ h2 {
 
 h3 {
   font-size: 24px;
+  margin-bottom: 25px;
 }
 
 p {
   line-height: 30px;
+}
+
+.caption-info {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 /* Utilities */
@@ -223,10 +230,6 @@ div.nav-right {
   padding: 20px 40px;
 }
 
-#crm h3 {
-  margin-bottom: 25px;
-}
-
 #crm p {
   margin-bottom: 25px;
 }
@@ -234,8 +237,6 @@ div.nav-right {
 #crm span {
   display: inline-block;
   position: relative;
-  font-size: 18px;
-  font-weight: 900;
   margin-bottom: 30px;
 }
 
@@ -261,6 +262,7 @@ div.nav-right {
 
 #hubs .float-l {
   width: 30%;
+  padding: 25px 40px;
 }
 
 #hubs .sales {
@@ -270,4 +272,47 @@ div.nav-right {
 
 #hubs div > div {
   margin: 5% 0;
+  text-align: center;
+  padding:
+}
+
+#hubs img {
+  height: 100px;
+  display: block;
+  margin: 0 auto 25px auto;
+}
+
+#hubs p {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+#hubs p::before {
+  position: absolute;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  background-color: #4c707a;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#hubs .caption-info {
+  display: block;
+  margin: 50px 0;
+}
+
+#hubs ul {
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+#hubs ul li i {
+  margin-right: 16px;
+}
+
+#hubs .btn-color {
+  display: inline-block;
+  padding: 20px 40px;
 }
