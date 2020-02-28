@@ -58,6 +58,10 @@ ul {
   width: 50%;
 }
 
+.w-25 {
+  width: 25%;
+}
+
 .clearfix:after {
   content: '';
   display: table;
@@ -66,6 +70,10 @@ ul {
 
 .iblock li{
   display: inline-block;
+}
+
+.block > * {
+  display: block;
 }
 
 a {
@@ -315,4 +323,11 @@ div.nav-right {
 #hubs .btn-color {
   display: inline-block;
   padding: 20px 40px;
+}
+
+/* Community */
+
+#community {
+  background-image: linear-gradient(90deg, #00abb7, #00bba8);
+  text-align: center;
 }
