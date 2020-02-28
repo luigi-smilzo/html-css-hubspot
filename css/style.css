@@ -84,6 +84,12 @@ a {
 .chk-color {
   color: #fe785c;
 }
+
+.box-shd {
+  background-color: white;
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.2);
+}
+
 /* Navs*/
 div.nav-right {
   text-align: right;
@@ -191,8 +197,6 @@ div.nav-right {
 /* CRM */
 
 #crm > div {
-  background-color: white;
-  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.2);
   padding: 80px 50px;
 }
 
@@ -251,4 +255,19 @@ div.nav-right {
 
 #crm .features i:first-child {
   margin-left: 0;
+}
+
+/* Hubs */
+
+#hubs .float-l {
+  width: 30%;
+}
+
+#hubs .sales {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#hubs div > div {
+  margin: 5% 0;
 }
