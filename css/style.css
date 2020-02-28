@@ -62,6 +62,14 @@ ul {
   width: 25%;
 }
 
+.w-30 {
+  width: 30%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
 .clearfix:after {
   content: '';
   display: table;
@@ -380,4 +388,31 @@ div.nav-right {
 
 #community div.container > div:last-child {
   padding-bottom: 120px;
+}
+
+/* Customers */
+
+#customers {
+  margin-top: 50px;
+}
+
+#customers div.row-1 .w-30 {
+  padding: 0 100px;
+}
+
+#customers div.row-1 h2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+#customers div.w-70 img {
+  max-width: 15%;
+  vertical-align: middle;
+  margin: 12px;
+}
+
+#customers div.w-70 {
+  padding: 0 100px;
+  text-align: right;
 }
