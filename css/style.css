@@ -393,7 +393,8 @@ div.nav-right {
 /* Customers */
 
 #customers {
-  margin-top: 50px;
+  padding-top: 50px;
+  background-color: white;
 }
 
 #customers div.row-1 .w-30 {
