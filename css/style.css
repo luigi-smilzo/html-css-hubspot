@@ -396,10 +396,11 @@ div.nav-right {
 #customers {
   padding-top: 50px;
   background-color: white;
+  margin-bottom: 50px;
 }
 
 #customers div.row-1 {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 #customers div.row-1 .w-30 {
@@ -425,7 +426,7 @@ div.nav-right {
 
 #customers div.row-2 h2 {
   margin-bottom: 30px;
-  padding-top: 50px;
+  padding-top: 30px;
   width: 80%;
 }
 
@@ -452,5 +453,5 @@ div.nav-right {
   position: absolute;
   top: 0;
   right: 0;
-  width: 50%;
+  height: 300px;
 }
