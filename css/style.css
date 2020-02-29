@@ -105,6 +105,16 @@ a {
   background-color: #fe785c;
 }
 
+.btn-ftr {
+  border-radius: 5px;
+  padding: 10px 10px;
+  color: #32475b;
+  background-color: #d9dee1;
+  display: inline-block;
+  margin: 15px 0;
+  font-size: 13px;
+}
+
 .chk-color {
   color: #fe785c;
 }
@@ -454,4 +464,26 @@ div.nav-right {
   top: 0;
   right: 0;
   height: 300px;
+}
+/* Fine Main */
+
+/* Footer */
+
+footer {
+  background-color: #32475b;
+  color: #d9dee1;
+}
+
+footer h5 {
+  color: #fff;
+  font-size: 15px;
+  margin: 40px 0 20px 0;
+}
+
+footer div.w-25 ul li {
+  line-height: 35px;
+}
+
+div.social-ftr i {
+  margin-right: 20px;
 }
