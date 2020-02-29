@@ -22,6 +22,7 @@ h1 {
 
 h2 {
   font-size: 34px;
+  text-transform: capitalize;
 }
 
 h3 {
@@ -397,6 +398,10 @@ div.nav-right {
   background-color: white;
 }
 
+#customers div.row-1 {
+  margin-bottom: 50px;
+}
+
 #customers div.row-1 .w-30 {
   padding: 0 100px;
 }
@@ -416,4 +421,36 @@ div.nav-right {
 #customers div.w-70 {
   padding: 0 100px;
   text-align: right;
+}
+
+#customers div.row-2 h2 {
+  margin-bottom: 30px;
+  padding-top: 50px;
+  width: 80%;
+}
+
+#customers div.row-2 p {
+  width: 80%;
+  margin-bottom: 60px;
+}
+
+#customers div.row-2 a {
+  padding: 24px 40px;
+}
+
+#customers div.row-2 span {
+  display: block;
+  margin-top: 60px;
+  font-size: 13px;
+}
+
+#customers div.row-2 > div:last-child {
+  position: relative;
+}
+
+#customers div.row-2 img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
 }
