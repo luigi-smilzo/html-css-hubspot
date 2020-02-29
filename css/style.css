@@ -487,3 +487,54 @@ footer div.w-25 ul li {
 div.social-ftr i {
   margin-right: 20px;
 }
+
+footer div.row-1 {
+  margin-bottom: 50px;
+}
+
+footer div.row-2 {
+  margin-bottom: 30px;
+}
+
+footer div.row-2 div.languages {
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+footer div.row-2 div.languages a {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+footer div.row-2 div.languages::before {
+  content: '';
+  height: 1px;
+  width: 100%;
+  background-color: #d9dee1;
+  position: absolute;
+  bottom: 0;
+  left:0;
+}
+
+footer div.row-3 {
+  padding-bottom: 40px;
+}
+
+footer div.row-3 div.left img {
+  vertical-align: middle;
+}
+
+footer div.row-3 div.left span.copy {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+}
+
+footer div.row-3 div.right {
+  text-align: right;
+}
+
+footer div.row-3 div.right li {
+  margin-left: 20px;
+}
